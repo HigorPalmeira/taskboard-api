@@ -24,7 +24,7 @@ A API foi construída sob a arquitetura REST e possui os seguintes recursos:
 
 * **Gerenciamento de Projetos:** Criação, leitura, atualização e remoção (CRUD).
 
-* **Gerenciamento de Tarefas:** Associação de tarefas aos projetos com controle de status (`PENDING`, `IN\_PROGRESS`, `COMPLETED`).
+* **Gerenciamento de Tarefas:** Associação de tarefas aos projetos com controle de status (`PENDING`, `IN_PROGRESS`, `COMPLETED`).
 
 * **Regras de Negócio:** Proteção de integridade (Não é possível deletar um projeto que possua tarefas ativas).
 
@@ -40,10 +40,10 @@ A API foi construída sob a arquitetura REST e possui os seguintes recursos:
 
 1. Clone este repositório em sua máquina local.
 2. Certifique-se de ter o **Java 17+** e o **MySQL** instalados.
-3. Crie um banco de dados vazio no MySQL chamado `taskboard\_db`:
+3. Crie um banco de dados vazio no MySQL chamado `taskboard_db`:
 
 ```sql
-CREATE DATABASE taskboard\_db;
+CREATE DATABASE taskboard_db;
 ```
 
 4. Navegue até a pasta `src/main/resources/` e abra o arquivo `application.properties`. Altere as credenciais para o seu usuário e senha do banco:
